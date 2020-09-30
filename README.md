@@ -434,7 +434,9 @@ print(sum(patterns))
   <li>How would you change 1 to 'one'?</li>
   <li>How would you print out each sub-list (one sub-list per line)?</li>
   <li>How would you print out each number (one number per line)?</li>
-
+ </ol>
+ </blockquote>
+ 
 # Working With Dictionaries
 
 78. Refresh: A dictionary is a mapping between a set of indices (keys) and a set of values. Each key maps to a value. The association of a key and a value is called a key-value pair.
