@@ -460,6 +460,8 @@ print(sum(patterns))
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
   <li>Add a value to the set.</li>
   <li>Remove a value from the set.</li>
+ </ol>
+ </blockquote>
 
 # Additional Lab Notebook Questions
 
