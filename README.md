@@ -524,6 +524,7 @@ Q12: Create the list `numbers` with the following values: `[[0, 1], [2, 3], [4, 
   <li>How would you change 1 to 'one'?</li>
   <li>How would you print out each sub-list (one sub-list per line)?</li>
   <li>How would you print out each number (one number per line)?</li>
+ </ol>
 
 Q13: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
 <ol>
@@ -539,6 +540,7 @@ Q14: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
   <li>Add a value to the set.</li>
   <li>Remove a value from the set.</li>
+ </ol>
   
 Q15: What is the difference between a `list` and a `string`? What are some methods you can perform on a `list` that you can't do with a `string` (and vice versa)?
 
