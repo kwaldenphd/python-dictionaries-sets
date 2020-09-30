@@ -454,7 +454,7 @@ print(sum(patterns))
 
 79. Refresh: A set is an unordered collection of unique objects. Sets are primarily used to see if an object or value is in the collection (membership).
 
-<blockquote>Q14: Create the set <code>s</code> with the following values: <code>[1, 3, 5, 7, 9]
+<blockquote>Q14: Create the set <code>s</code> with the following values: <code>[1, 3, 5, 7, 9]</code>
  <ol>
   <li>Test to see if the value <code>11</code> is a member of the set.</li>
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
