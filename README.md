@@ -165,7 +165,7 @@ print("Welcome to " + course_name.title() + " CSE:" + str(course_number())
 ```
 <blockquote>Q5: Explain concatenation in your own words. Why must we convert numbers to strings in the program above? Refer to this example and the previous example.</blockquote>
 
-<blockquote>Q6: Write a program that converts integer, float, or boolean values to a string, using the <code>str</code> function.</code>
+<blockquote>Q6: Write a program that converts integer, float, or boolean values to a string, using the <code>str</code> function.</code></blockquote>
 
 27. We can also extract (or modify) individual characters within a string. To do so, we need a way to specify which character we mean. 
 
