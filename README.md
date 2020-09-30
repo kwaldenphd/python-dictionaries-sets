@@ -343,7 +343,7 @@ print(length)
 <blockquote>Q9: Create your own list of strings. Include your list code as part of this question answer. What is the length of your list? What is the number position for each of the items in your list? How would you return the value of the first item? How would you return the value of the last item?</blockquote>
 
 <blockquote>Q10: Using the same list from the previous question, write a program that includes the following steps or components:
-<ol>
+<ol type="a">
  <li>Adds a new item to your list</li>
  <li>Deletes an item from your list</li>
  <li>Sorts your list in-place</li>
@@ -428,7 +428,7 @@ print(sum(patterns))
 77. We can check if something is in a list using the `in` operator.
 
 <blockquote>Q12: Create the list <code>numbers</code> with the following values: <code>[[0, 1], [2, 3], [4, 5]]</code>. 
- <ol>
+<ol type="a">
   <li>What is the second element?</li>
   <li>How would you change 4 to 'four'?</li>
   <li>How would you change 1 to 'one'?</li>
@@ -442,7 +442,7 @@ print(sum(patterns))
 78. Refresh: A dictionary is a mapping between a set of indices (keys) and a set of values. Each key maps to a value. The association of a key and a value is called a key-value pair.
 
 <blockquote>Q13: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
-<ol>
+<ol type="a">
  <li>Add new elements to your dictionary.</li>
  <li>Update an element in your dictionary.</li>
  <li>Print a list of all the keys in your dictionary.</li>
@@ -455,7 +455,7 @@ print(sum(patterns))
 79. Refresh: A set is an unordered collection of unique objects. Sets are primarily used to see if an object or value is in the collection (membership).
 
 <blockquote>Q14: Create the set <code>s</code> with the following values: <code>[1, 3, 5, 7, 9]</code>
- <ol>
+<ol type="a">
   <li>Test to see if the value <code>11</code> is a member of the set.</li>
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
   <li>Add a value to the set.</li>
@@ -503,7 +503,7 @@ Q8: Modify the program to have it search for other characters in the string. Doe
 Q9: Create your own list of strings. Include your list code as part of this question answer. What is the length of your list? What is the number position for each of the items in your list? How would you return the value of the first item? How would you return the value of the last item?
 
 Q10: Using the same list from the previous question, write a program that includes the following steps or components:
-<ol>
+<ol type="a">
  <li>Adds a new item to your list</li>
  <li>Deletes an item from your list</li>
  <li>Sorts your list in-place</li>
@@ -518,7 +518,7 @@ Q10: Using the same list from the previous question, write a program that includ
 Q11: How would you rewrite the code to include only the even numbers from 1 to 10?
 
 Q12: Create the list `numbers` with the following values: `[[0, 1], [2, 3], [4, 5]]`
- <ol>
+<ol type="a">
   <li>What is the second element?</li>
   <li>How would you change 4 to 'four'?</li>
   <li>How would you change 1 to 'one'?</li>
@@ -527,7 +527,7 @@ Q12: Create the list `numbers` with the following values: `[[0, 1], [2, 3], [4, 
  </ol>
 
 Q13: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
-<ol>
+<ol type="a">
  <li>Add new elements to your dictionary.</li>
  <li>Update an element in your dictionary.</li>
  <li>Print a list of all the keys in your dictionary.</li>
@@ -535,7 +535,7 @@ Q13: Create a dictionary on a topic of your choosing. Include at least 7 key-val
  </ol>
 
 Q14: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
- <ol>
+<ol type="a">
   <li>Test to see if the value <code>11</code> is a member of the set.</li>
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
   <li>Add a value to the set.</li>
