@@ -179,7 +179,7 @@ print("Welcome to " + course_name.title() + " CSE:" + str(course_number())
 - `color[2]` holds the letter `r`
 - etc
 
-<blockquote>Q7: Write a program that prompts the user to enter a 6-letter word, and then prints the first, third, and fifth letters of that word.<blockquote>
+<blockquote>Q7: Write a program that prompts the user to enter a 6-letter word, and then prints the first, third, and fifth letters of that word.</blockquote>
  
 31. A sample output for your program might look like this:
 ```
