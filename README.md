@@ -161,7 +161,7 @@ print("Welcome to " + course_name.title() + " CSE:" + course_number)
 
 26. When we want numbers to be read as characters rather than numeric digits, we have to use the string method `str()` to convert the integer into a string of characters.
 ```Python
-print("Welcome to " + course_name.title() + " CSE:" + str(course_number())
+print("Welcome to " + course_name.title() + " CSE:" + str(course_number))
 ```
 <blockquote>Q5: Explain concatenation in your own words. Why must we convert numbers to strings in the program above? Refer to this example and the previous example.</blockquote>
 
