@@ -142,7 +142,7 @@ print(2-3)
 print(2*3)
 print(2/3)
 ```
-<blockquote>Q4: Why does <code>print(2/3)</code> return 0? How would you modify your code to return the decimal number? Why?</blockquote>
+<blockquote>Q4: Why does <code>print(2//3)</code> return 0? How would you modify your code to return the decimal number? Why?</blockquote>
 
 22. Hint: Try `print(2.0//3.0)` using the floating point integers (numbers with decimal points).
 
