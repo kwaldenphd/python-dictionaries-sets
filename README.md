@@ -34,6 +34,7 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
   * [A List of Numbers](#a-list-of-numbers)
 - [Working With Dictionaries](#working-with-dictionaries)
 - [Working With Sets](#working-with-sets)
+- [Additional Lab Notebook Questions](#additional-lab-notebook-questions)
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
   
