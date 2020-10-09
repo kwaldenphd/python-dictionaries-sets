@@ -275,8 +275,8 @@ print(cookies)
 53. We can also use `append()` to create new lists.
 ```Python
 my_pets = []
-my_pets.append('Christy Matthewson')
-my_pets.append('Smokey Jo Wood')
+my_pets.append('Christy Mathewson')
+my_pets.append('Smoky Jo Wood')
 print(my_pets)
 ```
 
