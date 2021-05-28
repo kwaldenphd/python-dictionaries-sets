@@ -273,7 +273,7 @@ s.add(2)
 s
 ```
 
-36. We can also remove values from our set using `.remove()`
+36. We can also remove values from our set using `.remove()`.
 
 ```Python
 # create set with values
