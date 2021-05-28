@@ -23,8 +23,16 @@ Elements of this lab procedure were adapted from materials developed by [Dr. Cor
 Elements of this lab procedure were adapted from materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
-- [Working With Dictionaries](#working-with-dictionaries)
-- [Working With Sets](#working-with-sets)
+- [Dictionaries](#dictionaries)
+  * [Creating a Dictionary](#creating-a-dictionary)
+  * [Interacting With a Dictionary](#interacting-with-a-dictionary)
+  * [Iteration and Dictionaries](#iteration-and-dictionaries)
+  * [Dictionary Lab Notebook Question](#dictionary-lab-notebook-question)
+- [Sets](#sets)
+  * [Creating Sets](#creating-sets)
+  * [Testing For Membership](#testing-for-membership)
+  * [Adding and Removing Items](#adding-and-removing-items)
+  * [Set Lab Notebook Question](#set-lab-notebook-question)
 - [Additional Lab Notebook Questions](#additional-lab-notebook-questions)
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
@@ -83,7 +91,7 @@ english_to_french = {
 }
 ```
 
-# Interacting With A Dictionary
+## Interacting With A Dictionary
 
 7. Now that we have a dictionary, we can start to bring in some of the syntax covered in previous labs.
 
@@ -152,7 +160,7 @@ print(english_to_french)
 
 19. The first part of each line of code creates a new key and assigns the value (the string to the right of the assignment operator, or equals sign) to that key, giving us a new key-value pair.
 
-# Iteration and Dictionaries
+## Iteration and Dictionaries
 
 20. The previous lab talked about the concept of "iteration," and we're going to see it at work here as well.
 
