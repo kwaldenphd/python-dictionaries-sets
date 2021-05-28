@@ -31,7 +31,9 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
   
 # Dictionaries
 
-IMAGE 
+<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true" /></a></p>
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_2.png?raw=true" /></a></p>
 
 1. A dictionary is a mapping between a set of indices (keys) and a set of values. 
 
@@ -203,7 +205,7 @@ for key, value, in english_to_french.items():
 
 28. A set is an unordered collection of unique objects. Sets are primarily used to see if an object or value is in the collection (membership).
 
-IMAGE
+<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Sets.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Sets.png?raw=true" /></a></p>
 
 29. There are many different types of set operations, but this lab is just going to focus on testing for membership.
 
