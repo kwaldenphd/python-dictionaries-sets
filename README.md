@@ -59,19 +59,19 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
 
 ```Python
 # creating empty dictionary using dict()
-english_to_french = dict()
+english_to_french = dict({})
 
 # check variable type
 type(english_to_french)
 
 # create dictionary this time with key-value pairs
-english_to_french = dict(
+english_to_french = dict({
   'one': 'un',
   'two': 'deux',
   'three': 'trois',
   'four': 'quatre',
   'five': 'cinq'
-)
+})
 ```
 
 ```Python
@@ -299,9 +299,7 @@ s
 
 # Additional Lab Notebook Questions
 
-<blockquote>Q3: What is the difference between a <code>list</code> and a <code>string</code>? What are some methods you can perform on a <code>list</code> that you can't do with a <code>string</code> (and vice versa)?</blockquote>
-
-<blockquote>Q4: What is the difference between a <code>list</code> and a <code>dict</code>? When would we prefer one over the other?</blockquote>
+<blockquote>Q3: What is the difference between a <code>list</code> and a <code>dict</code>? When would we prefer one over the other?</blockquote>
 
 # How to submit this lab (and show your work)
 
@@ -334,6 +332,4 @@ Q2: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
   <li>Remove a value from the set.</li>
  </ol>
   
-Q3: What is the difference between a `list` and a `string`? What are some methods you can perform on a `list` that you can't do with a `string` (and vice versa)?
-
-Q4: What is the difference between a `list` and a `dict`? When would we prefer one over the other?
+Q3: What is the difference between a `list` and a `dict`? When would we prefer one over the other?
