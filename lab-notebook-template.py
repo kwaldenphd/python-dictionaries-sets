@@ -16,6 +16,4 @@
 # Add a value to the set.
 # Remove a value from the set.
 
-"""Q3: What is the difference between a list and a string? What are some methods you can perform on a list that you can't do with a string (and vice versa)?"""
-
-"""Q4: What is the difference between a list and a dict? When would we prefer one over the other?"""
+"""Q3: What is the difference between a list and a dict? When would we prefer one over the other?"""
