@@ -301,6 +301,8 @@ s
 
 <blockquote>Q3: What is the difference between a <code>list</code> and a <code>dict</code>? When would we prefer one over the other?</blockquote>
 
+<blockquote>Q4: Include a link to your Replit project workspace.</blockquote>
+
 # How to submit this lab (and show your work)
 
 37. Moving forward, we'll submit lab notebooks as `.py` files. 
@@ -333,3 +335,5 @@ Q2: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
  </ol>
   
 Q3: What is the difference between a `list` and a `dict`? When would we prefer one over the other?
+
+Q4: Include a link to your Replit project workspace.
