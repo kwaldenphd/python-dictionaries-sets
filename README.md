@@ -10,6 +10,20 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
   * For sets, this includes basic syntax, adding and removing, and testing for membership
 - Use Python methods and functions to work with dictionaries and sets
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=df2efb55-a837-454e-910d-ad820163cda5">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=266f95e7-65bd-4718-9a97-ae300135e32a">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
 ## Acknowledgements
 
 Elements of this lab procedure were adapted from materials developed by [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
@@ -23,6 +37,8 @@ Elements of this lab procedure were adapted from materials developed by [Dr. Cor
 Elements of this lab procedure were adapted from materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
+- [Lecture and Live Coding](#lecture-and-live-coding)
+- [Lab Notebook Template](#lab-notebook-template)
 - [Dictionaries](#dictionaries)
   * [Creating a Dictionary](#creating-a-dictionary)
   * [Interacting With a Dictionary](#interacting-with-a-dictionary)
@@ -37,7 +53,46 @@ Elements of this lab procedure were adapted from materials developed by [Lindsay
 - [How to submit this lab (and show your work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
   
+[Click here to access the lab procedure as a Jupyter Notebook](https://drive.google.com/file/d/1L9A7I6bFJiyEUfGXdtL4odLqkCO2ROKf/view?usp=sharing)
+
+# Lecture and Live Coding
+
+Throughout this lab, you will see a Panopto icon at the start of select sections.
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=df2efb55-a837-454e-910d-ad820163cda5">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=266f95e7-65bd-4718-9a97-ae300135e32a">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
+# Lab Notebook Template
+
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/1SzNANtFLxwt0trPVVYyLRBHzQJ6ixOUE/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1t5_e7qMH-filkLUpPkl2O4ae5UlzWT4p/view?usp=sharing)
+
 # Dictionaries
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a24f407-5860-4d8b-8aea-ad8201622e0f">Dictionaries</a></td>
+  </tr>
+  </table>
 
 <p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true" /></a></p>
 
@@ -96,6 +151,7 @@ english_to_french = {
 7. Now that we have a dictionary, we can start to bring in some of the syntax covered in previous labs.
 
 ```Python
+# show dictionary
 print(english_to_french)
 ```
 
@@ -113,6 +169,7 @@ english_to_french['one']
 11. If we try to access the value for a key that does not exist, Python will return a KeyError.
 
 ```Python
+# code that will return a key error
 english_to_french['asdf']
 ```
 
@@ -136,12 +193,14 @@ english_to_french['asdf']
 15. We can use the `.keys()` method to get a list of all keys in the dictionary.
 
 ```Python
+# output keys in dictionary
 print(english_to_french.keys())
 ```
 
 16. We can use the `.values()` method to get a list of all the values in the dictionary.
 
 ```Python
+# output values in dictionary
 print(english_to_french.values())
 ```
 
@@ -150,11 +209,14 @@ print(english_to_french.values())
 18. To see that in Python syntax:
 
 ```Python
+# add key-values pairs to dictionary
 english_to_french['six']   = 'six'
 english_to_french['seven'] = 'sept'
 english_to_french['eight'] = 'huit'
 english_to_french['nine']  = 'neuf'
 english_to_french['ten']   = 'dix'
+
+# show updated dictionary
 print(english_to_french)
 ```
 
@@ -171,6 +233,7 @@ print(english_to_french)
 23. An example that tells Python to print the key for each key-value pair.
 
 ```Python
+# for loop that outputs keys
 for key in english_to_french.keys():
   print(key)
 ```
@@ -178,6 +241,7 @@ for key in english_to_french.keys():
 24. We could modify the print statement nested in the for loop to output the key and value.
 
 ```Python
+# for loop that outputs key-value pairs
 for key in english_to_french.keys():
   print(key, english_to_french[key])
 ```
@@ -185,6 +249,7 @@ for key in english_to_french.keys():
 25. And, we wouldn't actually need to use the `.keys()` method when iterating by keys.
 
 ```Python
+# alternate syntax for outputting key-value pairs
 for key in english_to_french:
   print(key, english_to_french[key])
 ```
@@ -192,6 +257,7 @@ for key in english_to_french:
 26. We can also iterate by key-value pairs, using the `.items()` method.
 
 ```Python
+# for loop that outputs key-value pairs using items
 for key, value, in english_to_french.items():
   print(key, value)
 ```
@@ -200,16 +266,22 @@ for key, value, in english_to_french.items():
 
 ## Dictionary Lab Notebook Question
 
-<blockquote>Q1: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
+Q1: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
 <ol type="a">
  <li>Add new elements to your dictionary.</li>
  <li>Update an element in your dictionary.</li>
  <li>Print a list of all the keys in your dictionary.</li>
  <li>Print a list of all the values in your dictionary.</li>
  </ol>
- </blockquote>
-
+ 
 # Sets
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a24f407-5860-4d8b-8aea-ad8201622e0f">Sets</a></td>
+  </tr>
+  </table>
 
 28. A set is an unordered collection of unique objects. Sets are primarily used to see if an object or value is in the collection (membership).
 
@@ -288,35 +360,40 @@ s
 
 ## Set Lab Notebook Question
 
-<blockquote>Q2: Create the set <code>s</code> with the following values: <code>[1, 3, 5, 7, 9]</code>
+Q2: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
 <ol type="a">
   <li>Test to see if the value <code>11</code> is a member of the set.</li>
   <li>Test to see if the value <code>7</code> is a member of the set.</li>
   <li>Add a value to the set.</li>
   <li>Remove a value from the set.</li>
  </ol>
- </blockquote>
 
 # Additional Lab Notebook Questions
 
-<blockquote>Q3: What is the difference between a <code>list</code> and a <code>dict</code>? When would we prefer one over the other?</blockquote>
+Q3: What is the difference between a `list` and a `dict`? When would we prefer one over the other?
 
-<blockquote>Q4: Include a link to your Replit project workspace.</blockquote>
+Q4: What is the difference between a `dict` and a `set`? When would we prefer one over the other?
+
+Q5: Include a link to your Replit project workspace.
 
 # How to submit this lab (and show your work)
 
-37. Moving forward, we'll submit lab notebooks as `.py` files. 
+Moving forward, we'll submit lab notebooks as `.py` files. 
 
-38. One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
+One option is to have a `.py` file that you use to run code and test programs while working through the lab. When ready to submit the lab notebook, you add comments and remove extraneous materials.
 
-39. Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
+Another option is to have an "official" `.py` file that you are using as a lab notebook (separate from your working/testing file). Use comments in Python to note when you are starting a new question (as well as answering a question).
   * Example: `Lab5_Notebook_Walden.py`
 
-40. What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
+What gets submitted as the lab notebook is the `Lab5_Notebook_Walden.py` file.
 - When in doubt, use comments
 - Be sure you are using comments to note what question you're responding to
 
 # Lab Notebook Questions
+
+Lab notebook template:
+- [`.py` file](https://drive.google.com/file/d/1SzNANtFLxwt0trPVVYyLRBHzQJ6ixOUE/view?usp=sharing)
+- [Jupyter Notebook](https://drive.google.com/file/d/1t5_e7qMH-filkLUpPkl2O4ae5UlzWT4p/view?usp=sharing)
 
 Q1: Create a dictionary on a topic of your choosing. Include at least 7 key-value pairs.
 <ol type="a">
@@ -336,4 +413,6 @@ Q2: Create the set `s` with the following values: `[1, 3, 5, 7, 9]`
   
 Q3: What is the difference between a `list` and a `dict`? When would we prefer one over the other?
 
-Q4: Include a link to your Replit project workspace.
+Q4: What is the difference between a `dict` and a `set`? When would we prefer one over the other?
+
+Q5: Include a link to your Replit project workspace.
