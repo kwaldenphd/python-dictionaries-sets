@@ -94,9 +94,9 @@ Lab notebook template:
   </tr>
   </table>
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_1.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/main/figures/Dic_1.png?raw=true"></p>
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Dic_2.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/main/figures/Dic_2.png?raw=true"></p>
 
 1. A dictionary is a mapping between a set of indices (keys) and a set of values. 
 
@@ -285,7 +285,7 @@ Q1: Create a dictionary on a topic of your choosing. Include at least 7 key-valu
 
 28. A set is an unordered collection of unique objects. Sets are primarily used to see if an object or value is in the collection (membership).
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Sets.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/master/figures/Sets.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/python-dictionaries-sets/blob/main/figures/Sets.png?raw=true"></p>
 
 29. There are many different types of set operations, but this lab is just going to focus on testing for membership.
 
